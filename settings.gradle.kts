@@ -33,4 +33,5 @@ plugins {
 }
 
 include(":composeApp")
-include(":composeApp:backend")
+include(":backend")
+include(":shared")

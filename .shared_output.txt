@@ -1,0 +1,282 @@
+Initialized native services in: /Users/lukasvondracek/.gradle/native
+Initialized jansi services in: /Users/lukasvondracek/.gradle/native
+The client will now receive all logging from the daemon (pid: 80565). The daemon log file: /Users/lukasvondracek/.gradle/daemon/8.14.3/daemon-80565.out.log
+Starting 15th build in daemon [uptime: 11 mins 34.779 secs, performance: 100%, GC rate: 0.00/s, heap usage: 0% of 4 GiB]
+Using 14 worker leases.
+Calculating task graph as no cached configuration is available for tasks: :shared:compileKotlinIosSimulatorArm64
+Now considering [/Users/lukasvondracek/IdeaProjects/KotlinMultiPlatform/demo] as hierarchies to watch
+Watching the file system is configured to be enabled if available
+File system watching is active
+Starting Build
+Resolved plugin [id: 'org.gradle.toolchains.foojay-resolver-convention', version: '1.0.0']
+Settings evaluated using settings file '/Users/lukasvondracek/IdeaProjects/KotlinMultiPlatform/demo/settings.gradle.kts'.
+Using local directory build cache for the root build (location = /Users/lukasvondracek/.gradle/caches/build-cache-1, remove unused entries = after 7 days).
+Type-safe project accessors is an incubating feature.
+Projects loaded. Root project using build file '/Users/lukasvondracek/IdeaProjects/KotlinMultiPlatform/demo/build.gradle.kts'.
+Included projects: [root project 'demo', project ':composeApp', project ':shared', project ':composeApp:backend']
+
+> Configure project :
+Evaluating root project 'demo' using build file '/Users/lukasvondracek/IdeaProjects/KotlinMultiPlatform/demo/build.gradle.kts'.
+Resolved plugin [id: 'com.android.application', version: '8.11.2', apply: false]
+Resolved plugin [id: 'com.android.library', version: '8.11.2', apply: false]
+Resolved plugin [id: 'org.jetbrains.compose.hot-reload', version: '1.0.0', apply: false]
+Resolved plugin [id: 'org.jetbrains.compose', version: '1.10.3', apply: false]
+Resolved plugin [id: 'org.jetbrains.kotlin.plugin.compose', version: '2.3.20', apply: false]
+Resolved plugin [id: 'org.jetbrains.kotlin.multiplatform', version: '2.3.20', apply: false]
+
+> Configure project :composeApp
+Evaluating project ':composeApp' using build file '/Users/lukasvondracek/IdeaProjects/KotlinMultiPlatform/demo/composeApp/build.gradle.kts'.
+Resolved plugin [id: 'org.jetbrains.kotlin.multiplatform', version: '2.3.20']
+Resolved plugin [id: 'com.android.application', version: '8.11.2']
+Resolved plugin [id: 'org.jetbrains.compose', version: '1.10.3']
+Resolved plugin [id: 'org.jetbrains.kotlin.plugin.compose', version: '2.3.20']
+Resolved plugin [id: 'org.jetbrains.compose.hot-reload', version: '1.0.0']
+Resolved plugin [id: 'org.jetbrains.kotlin.plugin.serialization', version: '2.3.20']
+Using Kotlin Gradle Plugin gradle813 variant
+Using default execution profile
+Configure multi-module compose resources
+Configure compose resources generation
+Configure Res object generation for commonMain
+Configure resource accessors generation for commonMain
+Configure resource accessors generation for commonTest
+Configure expect resource collectors generation for commonMain
+Configure compose resources with AndroidComponentsExtension
+Configure resource accessors generation for androidInstrumentedTest
+Configure resource accessors generation for androidMain
+Configure resource accessors generation for androidUnitTest
+Configure actual resource collectors generation for androidMain
+Configure resource accessors generation for iosX64Main
+Configure resource accessors generation for iosX64Test
+Configure actual resource collectors generation for iosX64Main
+Configure main resources for 'iosX64' target
+Configure KMP component publication for 'iosX64'
+Collect resolved main resources for 'iosX64'
+Configure test resources for 'iosX64' target
+Configure resource accessors generation for nativeMain
+Configure resource accessors generation for appleMain
+Configure resource accessors generation for iosMain
+Configure resource accessors generation for nativeTest
+Configure resource accessors generation for appleTest
+Configure resource accessors generation for iosTest
+Configure resource accessors generation for iosArm64Main
+Configure resource accessors generation for iosArm64Test
+Configure actual resource collectors generation for iosArm64Main
+Configure main resources for 'iosArm64' target
+Configure KMP component publication for 'iosArm64'
+Collect resolved main resources for 'iosArm64'
+Configure test resources for 'iosArm64' target
+Configure resource accessors generation for iosSimulatorArm64Main
+Configure resource accessors generation for iosSimulatorArm64Test
+Configure actual resource collectors generation for iosSimulatorArm64Main
+Configure main resources for 'iosSimulatorArm64' target
+Configure KMP component publication for 'iosSimulatorArm64'
+Collect resolved main resources for 'iosSimulatorArm64'
+Configure test resources for 'iosSimulatorArm64' target
+Configure resource accessors generation for jvmMain
+kotlin scripting plugin: created the scripting discovery configuration: kotlinScriptDef
+Configure resource accessors generation for jvmTest
+kotlin scripting plugin: created the scripting discovery configuration: testKotlinScriptDef
+Configure actual resource collectors generation for jvmMain
+Configure main resources for 'jvm' target
+Configure test resources for 'jvm' target
+Configure resource accessors generation for jvmDev
+kotlin scripting plugin: created the scripting discovery configuration: devKotlinScriptDef
+Configure dev resources for 'jvm' target
+Configure resource accessors generation for jsMain
+Configure resource accessors generation for jsTest
+Configure actual resource collectors generation for jsMain
+Configure main resources for 'js' target
+Configure KMP component publication for 'js'
+Collect resolved main resources for 'js'
+Configure test resources for 'js' target
+Configure resource accessors generation for webMain
+Configure resource accessors generation for webTest
+[KOTLIN] Storing cached files in /Users/lukasvondracek/.gradle
+[KOTLIN] Storing cached files in /Users/lukasvondracek/.gradle
+[KOTLIN] Storing cached files in /Users/lukasvondracek/.gradle
+Configure resource accessors generation for wasmJsMain
+Configure resource accessors generation for wasmJsTest
+Configure actual resource collectors generation for wasmJsMain
+Configure main resources for 'wasmJs' target
+Configure KMP component publication for 'wasmJs'
+Collect resolved main resources for 'wasmJs'
+Configure test resources for 'wasmJs' target
+[KOTLIN] Storing cached files in /Users/lukasvondracek/.gradle
+[KOTLIN] Storing cached files in /Users/lukasvondracek/.gradle
+[KOTLIN] Storing cached files in /Users/lukasvondracek/.gradle
+[KOTLIN] Storing cached files in /Users/lukasvondracek/.gradle
+Configure debug resources for 'android' target
+Configure debugAndroidTest resources for 'android' target
+Configure release resources for 'android' target
+Configure resource accessors generation for androidInstrumentedTestDebug
+Configure resource accessors generation for androidUnitTestDebug
+Configure resource accessors generation for androidDebug
+Configure resource accessors generation for androidUnitTestRelease
+Configure resource accessors generation for androidRelease
+Detected Android Gradle Plugin compose compiler configuration
+Detected Android Gradle Plugin compose compiler configuration
+Detected Android Gradle Plugin compose compiler configuration
+Detected Android Gradle Plugin compose compiler configuration
+Detected Android Gradle Plugin compose compiler configuration
+Detected Android Gradle Plugin compose compiler configuration
+Detected Android Gradle Plugin compose compiler configuration
+Detected Android Gradle Plugin compose compiler configuration
+Detected Android Gradle Plugin compose compiler configuration
+Detected Android Gradle Plugin compose compiler configuration
+Check that new 'org.jetbrains.kotlin.plugin.compose' was applied
+Detected Android Gradle Plugin compose compiler configuration
+Detected Android Gradle Plugin compose compiler configuration
+Detected Android Gradle Plugin compose compiler configuration
+Detected Android Gradle Plugin compose compiler configuration
+Detected Android Gradle Plugin compose compiler configuration
+Detected Android Gradle Plugin compose compiler configuration
+Detected Android Gradle Plugin compose compiler configuration
+Detected Android Gradle Plugin compose compiler configuration
+Detected Android Gradle Plugin compose compiler configuration
+file or directory '/Users/lukasvondracek/IdeaProjects/KotlinMultiPlatform/demo/composeApp/src/webTest/kotlin', not found
+file or directory '/Users/lukasvondracek/IdeaProjects/KotlinMultiPlatform/demo/composeApp/build/generated/compose/resourceGenerator/kotlin/webTestResourceAccessors', not found
+Detected Android Gradle Plugin compose compiler configuration
+Detected Android Gradle Plugin compose compiler configuration
+Detected Android Gradle Plugin compose compiler configuration
+Detected Android Gradle Plugin compose compiler configuration
+Detected Android Gradle Plugin compose compiler configuration
+
+> Configure project :shared
+Evaluating project ':shared' using build file '/Users/lukasvondracek/IdeaProjects/KotlinMultiPlatform/demo/shared/build.gradle.kts'.
+Resolved plugin [id: 'org.jetbrains.kotlin.multiplatform', version: '2.3.20']
+Resolved plugin [id: 'com.android.library', version: '8.11.2']
+Resolved plugin [id: 'org.jetbrains.kotlin.plugin.serialization', version: '2.3.20']
+Using Kotlin Gradle Plugin gradle813 variant
+Using default execution profile
+kotlin scripting plugin: created the scripting discovery configuration: kotlinScriptDef
+kotlin scripting plugin: created the scripting discovery configuration: testKotlinScriptDef
+[KOTLIN] Storing cached files in /Users/lukasvondracek/.gradle
+file or directory '/Users/lukasvondracek/IdeaProjects/KotlinMultiPlatform/demo/shared/src/webMain/kotlin', not found
+file or directory '/Users/lukasvondracek/IdeaProjects/KotlinMultiPlatform/demo/shared/src/webTest/kotlin', not found
+
+> Configure project :composeApp:backend
+Evaluating project ':composeApp:backend' using build file '/Users/lukasvondracek/IdeaProjects/KotlinMultiPlatform/demo/composeApp/backend/build.gradle.kts'.
+Resolved plugin [id: 'org.jetbrains.kotlin.jvm']
+Resolved plugin [id: 'org.jetbrains.kotlin.plugin.spring', version: '2.3.20']
+Resolved plugin [id: 'org.springframework.boot', version: '3.4.3']
+Resolved plugin [id: 'io.spring.dependency-management', version: '1.1.7']
+Using Kotlin Gradle Plugin gradle813 variant
+kotlin scripting plugin: created the scripting discovery configuration: kotlinScriptDef
+kotlin scripting plugin: created the scripting discovery configuration: testKotlinScriptDef
+Applying dependency management to configuration 'annotationProcessor' in project 'backend'
+Applying dependency management to configuration 'api' in project 'backend'
+Applying dependency management to configuration 'apiElements' in project 'backend'
+Applying dependency management to configuration 'archives' in project 'backend'
+Applying dependency management to configuration 'bootArchives' in project 'backend'
+Applying dependency management to configuration 'compileClasspath' in project 'backend'
+Applying dependency management to configuration 'compileOnly' in project 'backend'
+Applying dependency management to configuration 'default' in project 'backend'
+Applying dependency management to configuration 'developmentOnly' in project 'backend'
+Applying dependency management to configuration 'implementation' in project 'backend'
+Applying dependency management to configuration 'implementationDependenciesMetadata' in project 'backend'
+Applying dependency management to configuration 'kotlinBuildToolsApiClasspath' in project 'backend'
+Applying dependency management to configuration 'kotlinCompilerClasspath' in project 'backend'
+Applying dependency management to configuration 'kotlinCompilerPluginClasspath' in project 'backend'
+Applying dependency management to configuration 'kotlinCompilerPluginClasspathMain' in project 'backend'
+Applying dependency management to configuration 'kotlinCompilerPluginClasspathTest' in project 'backend'
+Applying dependency management to configuration 'kotlinInternalAbiValidation' in project 'backend'
+Applying dependency management to configuration 'kotlinKlibCommonizerClasspath' in project 'backend'
+Applying dependency management to configuration 'kotlinNativeCompilerPluginClasspath' in project 'backend'
+Applying dependency management to configuration 'kotlinScriptDef' in project 'backend'
+Applying dependency management to configuration 'kotlinScriptDefExtensions' in project 'backend'
+Applying dependency management to configuration 'mainSourceElements' in project 'backend'
+Applying dependency management to configuration 'productionRuntimeClasspath' in project 'backend'
+Applying dependency management to configuration 'runtimeClasspath' in project 'backend'
+Applying dependency management to configuration 'runtimeElements' in project 'backend'
+Applying dependency management to configuration 'runtimeOnly' in project 'backend'
+Applying dependency management to configuration 'testAndDevelopmentOnly' in project 'backend'
+Applying dependency management to configuration 'testAnnotationProcessor' in project 'backend'
+Applying dependency management to configuration 'testApi' in project 'backend'
+Applying dependency management to configuration 'testCompileClasspath' in project 'backend'
+Applying dependency management to configuration 'testCompileOnly' in project 'backend'
+Applying dependency management to configuration 'testImplementation' in project 'backend'
+Applying dependency management to configuration 'testImplementationDependenciesMetadata' in project 'backend'
+Applying dependency management to configuration 'testKotlinScriptDef' in project 'backend'
+Applying dependency management to configuration 'testKotlinScriptDefExtensions' in project 'backend'
+Applying dependency management to configuration 'testResultsElementsForTest' in project 'backend'
+Applying dependency management to configuration 'testRuntimeClasspath' in project 'backend'
+Applying dependency management to configuration 'testRuntimeOnly' in project 'backend'
+Applying dependency management to configuration 'apiElements-published' in project 'backend'
+Applying dependency management to configuration 'runtimeElements-published' in project 'backend'
+All projects evaluated.
+Task path ':shared:compileKotlinIosSimulatorArm64' matched project ':shared'
+Task name matched 'compileKotlinIosSimulatorArm64'
+Selected primary task 'compileKotlinIosSimulatorArm64' from project :shared
+Tasks to be executed: [task ':shared:kmpPartiallyResolvedDependenciesChecker', task ':shared:checkKotlinGradlePluginConfigurationErrors', task ':shared:downloadKotlinNativeDistribution', task ':shared:compileKotlinIosSimulatorArm64']
+Tasks that were excluded: []
+Using local directory build cache for the root build (location = /Users/lukasvondracek/.gradle/caches/build-cache-1, remove unused entries = after 7 days).
+Ignoring listeners of task graph ready event, as this build (:) has already executed work.
+Resolve mutations for :shared:kmpPartiallyResolvedDependenciesChecker (Thread[#1346,Execution worker,5,main]) started.
+Resolve mutations for :shared:downloadKotlinNativeDistribution (Thread[#1347,Execution worker Thread 2,5,main]) started.
+:shared:kmpPartiallyResolvedDependenciesChecker (Thread[#1346,Execution worker,5,main]) started.
+:shared:downloadKotlinNativeDistribution (Thread[#1347,Execution worker Thread 2,5,main]) started.
+
+> Task :shared:kmpPartiallyResolvedDependenciesChecker
+Caching disabled for task ':shared:kmpPartiallyResolvedDependenciesChecker' because:
+  This task is not intended for execution
+Task ':shared:kmpPartiallyResolvedDependenciesChecker' is not up-to-date because:
+  Task has not declared any outputs despite executing actions.
+Execution stopped by some action with message: null
+Resolve mutations for :shared:checkKotlinGradlePluginConfigurationErrors (Thread[#1346,Execution worker,5,main]) started.
+:shared:checkKotlinGradlePluginConfigurationErrors (Thread[#1346,Execution worker,5,main]) started.
+
+> Task :shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
+Skipping task ':shared:checkKotlinGradlePluginConfigurationErrors' as task onlyIf 'errorDiagnostics are present' is false.
+
+> Task :shared:downloadKotlinNativeDistribution UP-TO-DATE
+Kotlin Native Bundle: Acquire lock: /Users/lukasvondracek/.konan/kotlin-native-prebuilt-macos-aarch64-2.3.20/.lock ...
+Kotlin Native Bundle: Lock acquired: /Users/lukasvondracek/.konan/kotlin-native-prebuilt-macos-aarch64-2.3.20/.lock
+Kotlin Native Bundle: Lock released: /Users/lukasvondracek/.konan/kotlin-native-prebuilt-macos-aarch64-2.3.20/.lock
+Caching disabled for task ':shared:downloadKotlinNativeDistribution' because:
+  Task output contains file with kotlin native location, this file should not be restore from the cache as it could lead to a wrong location
+Skipping task ':shared:downloadKotlinNativeDistribution' as it is up-to-date.
+Resolve mutations for :shared:compileKotlinIosSimulatorArm64 (Thread[#1347,Execution worker Thread 2,5,main]) started.
+:shared:compileKotlinIosSimulatorArm64 (Thread[#1347,Execution worker Thread 2,5,main]) started.
+
+> Task :shared:compileKotlinIosSimulatorArm64 FAILED
+Kotlin Native Bundle: Acquire lock: /Users/lukasvondracek/.konan/kotlin-native-prebuilt-macos-aarch64-2.3.20/.lock ...
+Kotlin Native Bundle: Lock acquired: /Users/lukasvondracek/.konan/kotlin-native-prebuilt-macos-aarch64-2.3.20/.lock
+Kotlin Native Bundle: Lock released: /Users/lukasvondracek/.konan/kotlin-native-prebuilt-macos-aarch64-2.3.20/.lock
+Build cache key for task ':shared:compileKotlinIosSimulatorArm64' is 8330745106e8be3b84435acb98c395a3
+Task ':shared:compileKotlinIosSimulatorArm64' is not up-to-date because:
+  Input property 'multiplatformStructure.fragments.$4.sources' file /Users/lukasvondracek/IdeaProjects/KotlinMultiPlatform/demo/shared/src/commonMain/kotlin/cz/sg/shared/model/MessageDto.kt has changed.
+  Input property 'sources' file /Users/lukasvondracek/IdeaProjects/KotlinMultiPlatform/demo/shared/src/commonMain/kotlin/cz/sg/shared/model/MessageDto.kt has changed.
+file or directory '/Users/lukasvondracek/IdeaProjects/KotlinMultiPlatform/demo/shared/src/iosSimulatorArm64Main/kotlin', not found
+file or directory '/Users/lukasvondracek/IdeaProjects/KotlinMultiPlatform/demo/shared/src/iosMain/kotlin', not found
+file or directory '/Users/lukasvondracek/IdeaProjects/KotlinMultiPlatform/demo/shared/src/appleMain/kotlin', not found
+file or directory '/Users/lukasvondracek/IdeaProjects/KotlinMultiPlatform/demo/shared/src/nativeMain/kotlin', not found
+file or directory '/Users/lukasvondracek/IdeaProjects/KotlinMultiPlatform/demo/shared/src/iosSimulatorArm64Main/kotlin', not found
+file or directory '/Users/lukasvondracek/IdeaProjects/KotlinMultiPlatform/demo/shared/src/iosMain/kotlin', not found
+file or directory '/Users/lukasvondracek/IdeaProjects/KotlinMultiPlatform/demo/shared/src/appleMain/kotlin', not found
+file or directory '/Users/lukasvondracek/IdeaProjects/KotlinMultiPlatform/demo/shared/src/nativeMain/kotlin', not found
+file or directory '/Users/lukasvondracek/IdeaProjects/KotlinMultiPlatform/demo/shared/src/iosSimulatorArm64Main/kotlin', not found
+file or directory '/Users/lukasvondracek/IdeaProjects/KotlinMultiPlatform/demo/shared/src/iosMain/kotlin', not found
+file or directory '/Users/lukasvondracek/IdeaProjects/KotlinMultiPlatform/demo/shared/src/appleMain/kotlin', not found
+file or directory '/Users/lukasvondracek/IdeaProjects/KotlinMultiPlatform/demo/shared/src/nativeMain/kotlin', not found
+e: file:///Users/lukasvondracek/IdeaProjects/KotlinMultiPlatform/demo/shared/src/commonMain/kotlin/cz/sg/shared/model/MessageDto.kt:23:46 Unresolved reference 'System'.
+
+0 problems were found storing the configuration cache.
+
+See the complete report at file:///Users/lukasvondracek/IdeaProjects/KotlinMultiPlatform/demo/build/reports/configuration-cache/1p4hubwxkruw1qej85sk36ou4/chtd13whgnbqbb56qypntxi4k/configuration-cache-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':shared:compileKotlinIosSimulatorArm64'.
+> Compilation finished with errors
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 3s
+3 actionable tasks: 2 executed, 1 up-to-date
+Watched directory hierarchies: [/Users/lukasvondracek/IdeaProjects/KotlinMultiPlatform/demo]
+Configuration cache entry stored.
